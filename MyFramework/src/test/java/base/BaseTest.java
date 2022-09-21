@@ -41,7 +41,7 @@ public class BaseTest {
 	@AfterSuite
     public void Teardown()
 	{
-		System.out.println(" TEST IS COMPLETE");
+		System.out.println(" TEST Has been done");
 	}
 	
 
