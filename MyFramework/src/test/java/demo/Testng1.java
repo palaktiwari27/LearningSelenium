@@ -16,7 +16,7 @@ public class Testng1{
 	@BeforeSuite
 	public void beforesuit()  //eg clear cookies
 	{
-		System.out.println("I am before suit");
+		System.out.println("I am before suit Palak");
 	}
 	
 	@BeforeTest

@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.TestngChrome">
+      <class name="tests.CheckoutOverviewTest">
         <methods>
-          <include name="googleTest"/>
-          <include name="driversetup"/>
-          <include name="teardown"/>
+          <include name="init"/>
+          <include name="VerifyCheckoutOverview"/>
+          <include name="Teardown"/>
+          <include name="initiliseTest"/>
+          <include name="CloseTest"/>
         </methods>
-      </class> <!-- demo.TestngChrome -->
+      </class> <!-- tests.CheckoutOverviewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

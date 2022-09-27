@@ -51,9 +51,18 @@ public class LoginPage {
 
 	public void VerifyCorrectCredentials() throws InterruptedException {
 		Thread.sleep(3000);
-		String ExpectedText = "PRODUCTSss";
+		String ExpectedText = "PRODUCTS";
 		String ActualText = driver.findElement(Home).getText();
 		assertTrue(ActualText.contains(ExpectedText));
+	}
+	
+	public void Login(String username, String password) throws InterruptedException
+	{
+		
+		SendUsername(username);
+		SendPassword(password);
+		ClickLogin();
+		VerifyCorrectCredentials();
 	}
 
 }
