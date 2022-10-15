@@ -1,0 +1,25 @@
+[INFO ] 2022-10-14 10:31:28.703 [main] BaseTest - Setting up chromedriver
+[INFO ] 2022-10-14 10:31:31.241 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 10:31:34.550 [main] BaseTest - This is CorrectUsernameTest
+[INFO ] 2022-10-14 10:31:36.035 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 10:31:39.338 [main] BaseTest - This is IncorrectUsernameTest
+[INFO ] 2022-10-14 10:31:40.785 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 10:31:44.063 [main] BaseTest - This is a locked user test
+[INFO ] 2022-10-14 10:40:47.199 [main] BaseTest - Setting up chromedriver
+[WARN ] 2022-10-14 10:40:47.201 [main] BaseTest - Setting up chromedriver
+[ERROR] 2022-10-14 10:40:47.201 [main] BaseTest - Setting up chromedriver
+[INFO ] 2022-10-14 10:40:48.902 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 10:40:52.220 [main] BaseTest - This is CorrectUsernameTest
+[INFO ] 2022-10-14 10:40:53.630 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 10:40:56.887 [main] BaseTest - This is IncorrectUsernameTest
+[INFO ] 2022-10-14 10:40:58.332 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 10:41:01.623 [main] BaseTest - This is a locked user test
+[INFO ] 2022-10-14 11:01:04.616 [main] BaseTest - Setting up chromedriver
+[WARN ] 2022-10-14 11:01:04.618 [main] BaseTest - Setting up chromedriver
+[ERROR] 2022-10-14 11:01:04.618 [main] BaseTest - Setting up chromedriver
+[INFO ] 2022-10-14 11:01:06.239 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 11:01:09.563 [main] BaseTest - This is CorrectUsernameTest
+[INFO ] 2022-10-14 11:01:11.083 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 11:01:14.342 [main] BaseTest - This is IncorrectUsernameTest
+[INFO ] 2022-10-14 11:01:15.760 [main] BaseTest -  chromedriver created and URL opened
+[INFO ] 2022-10-14 11:01:19.052 [main] BaseTest - This is a locked user test

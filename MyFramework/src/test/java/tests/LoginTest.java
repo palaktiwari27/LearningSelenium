@@ -1,10 +1,12 @@
 package tests;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
 import pages.LoginPage;
 
+@Listeners(ListenerTest.class)
 public class LoginTest extends BaseTest {
 
 	LoginPage loginpage;// what and why
@@ -21,6 +23,7 @@ public class LoginTest extends BaseTest {
 		loginpage.SendPassword("secret_sauce");
 		loginpage.ClickLogin();
 		loginpage.VerifyLockedUser();
+		log.info("This is a locked user test");
 	}
 
 	// test for incorrect username verification
@@ -31,6 +34,7 @@ public class LoginTest extends BaseTest {
 		loginpage.SendPassword("secret_sauce");
 		loginpage.ClickLogin();
 		loginpage.VerifyIncorrectUsername();
+		log.info("This is IncorrectUsernameTest");
 	}
 
 	@Test
@@ -40,6 +44,7 @@ public class LoginTest extends BaseTest {
 		loginpage.SendPassword("secret_sauce");
 		loginpage.ClickLogin();
 		loginpage.VerifyCorrectCredentials();
+		log.info("This is CorrectUsernameTest");
 	}
 
 }
